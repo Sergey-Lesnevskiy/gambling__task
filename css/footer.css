@@ -1,0 +1,57 @@
+.footer {
+  width: 100%;
+  height: 130px;
+  border-top-left-radius: 64px;
+  border-top-right-radius: 64px;
+  border: 4px solid #478BF9;
+  border-bottom: none;
+}
+
+.footer__container {
+  max-width: 1640px;
+  height: 125px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__list-pages{
+  display: flex;
+}
+.footer__item-pages{
+  font-weight: var(--regular);
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer__item-pages:not(:last-child){
+  margin-right: 41px;
+}
+.active--page{
+  color: #478BF9;
+}
+.footer__list-social{
+  position: relative;
+  display: flex;
+}
+.footer__list-social::before{
+content:'Our social media:';
+position: absolute;
+font-weight: var(--regular);
+font-size: 16px;
+right:0;
+top: -30px;
+
+
+}
+.footer__item-social:not(:last-child) {
+  margin-right: 8px;
+}
+
+.footer__item-social:hover .social--hover{
+  fill:url('#Gradient2') 
+  
+}
+.social--hover{
+  fill: #478BF9;
+}

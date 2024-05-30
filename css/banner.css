@@ -194,15 +194,15 @@
 
 
 .first--line {
-  /* animation: firstLine 5s linear infinite; */
+  animation: firstLine 5s linear infinite;
 }
 
 .second--line {
-  /* animation: secondLine 5s linear infinite; */
+  animation: secondLine 5s linear infinite;
 }
 
 .third--line{
-  /* animation: thirdLine 7s linear infinite; */
+  animation: thirdLine 7s linear infinite;
 }
 .first--line:hover, .second--line:hover, .third--line:hover{
   animation-play-state: paused;

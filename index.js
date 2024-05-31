@@ -57,11 +57,11 @@ range.addEventListener("input", () => {
 
 function moveSide(value) {
   if (count < value) {
-    count++;
     transTop();
+    count = value;
   } else {
-    count--;
     transDown();
+    count = value;
   }
   return;
 }

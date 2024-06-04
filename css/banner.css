@@ -112,6 +112,7 @@
 
 .blog__list {
   position: absolute;
+  transition: 1s;
 }
 
 .blog__item {
